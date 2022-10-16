@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("Hello World")
         print("Hi this is \(firstName) \(lastName)")
         
     }
