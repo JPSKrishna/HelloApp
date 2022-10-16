@@ -10,10 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let firstName = "Krishna"
+    let lastName = "Maurya"
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         print("Hello World")
+        print("Hi this is \(firstName) \(lastName)")
+        
     }
 
     override func didReceiveMemoryWarning() {
